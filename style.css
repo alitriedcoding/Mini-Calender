@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3a46c8;
+}
+.container {
+  background-color: white;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.container .month {
+  background-color: #ab570e;
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  overflow: hidden;
+}
+.day {
+  font-size: 80px;
+  margin: 0;
+  font-weight: 800;
+}
+.year {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.weekday {
+  font-size: 20px;  
+  font-weight: 200;
+  margin: 10px;
+}
